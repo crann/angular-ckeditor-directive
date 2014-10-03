@@ -58,7 +58,7 @@ See the examples folder for a basic implementation of the directive.
 
 
 ####Requirements
-AngularJS - v.1.2.25
+AngularJS - v.1.2.25  
 CKEditor - v.4.4.45
 
 
