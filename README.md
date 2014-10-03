@@ -1,2 +1,0 @@
-angular-ckeditor-directive
-==========================

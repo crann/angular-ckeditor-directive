@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	</head>
+
+	<body ng-app="exampleApp">
+		
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<h2>Angular CKEditor Directive</h2>
+			</div>
+		</nav>
+		
+		<div class="container" ng-controller="ExampleCkEditorCtrl">
+			<div class="row">
+				<div class="col-md-6">
+					<textarea ck-editor ng-model="markUp" plaintext="plainText" options="ckEditorOptions"></textarea>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="well">
+							<div class="row">
+								<div class="col-md-12">
+									<h4>Markup:</h4>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div ng-bind="markUp"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="well">
+							<div class="row">
+								<div class="col-md-12">
+									<h4>Plain Text:</h4>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div ng-bind="plainText"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div>
+		</div>
+
+		<!-- JQuery and Bootstrap are included only for styling. They are not required by the directive. --> 
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+		<script src="js/libs/ckeditor_4.4.5_standard/ckeditor.js"></script>
+		<script src="js/apps/example-app.js"></script>
+		<script src="js/directives/ck-editor.js"></script>		
+		<script src="js/controllers/example-ckeditor-ctrl.js"></script>
+	</body>
+</html>
