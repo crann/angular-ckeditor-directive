@@ -3,7 +3,7 @@
 An AngularJS directive for the CKEditor, binding the AngularJS controller to the CKEditor's mark-up, plain-text and configuration options. 
 
 The mark-up has a two way binding between the editor and the controller.  
-The plain-text has a one way binding from the editor to the controller. 
+The plain-text has a one way binding from the editor to the controller.   
 The configuration options is a one way binding from the controller to the editor.
 
 ####Getting Started
