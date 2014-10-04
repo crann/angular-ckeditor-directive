@@ -1,8 +1,10 @@
 ###Read Me
 
-An AngularJS directive for the CKEditor. 
+An AngularJS directive for the CKEditor, binding the AngularJS controller to the CKEditor's mark-up, plain-text and configuration options. 
 
-Allows the AngularJS controller to bind to the CKEditor's mark-up, plain-text and options. The mark-up has a two way binding between the editor and the controller. The plain-text has a one way binding from the editor to the controller. The options, used to configure the CKEditor instance, is a one way binding from the controller to the editor.
+The mark-up has a two way binding between the editor and the controller.  
+The plain-text has a one way binding from the editor to the controller. 
+The configuration options is a one way binding from the controller to the editor.
 
 ####Getting Started
 
