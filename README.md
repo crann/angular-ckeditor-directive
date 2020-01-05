@@ -1,8 +1,8 @@
-###Read Me
+## Read Me
 
 An AngularJS directive for the CKEditor, binding the AngularJS controller to the CKEditor's mark-up, plain-text and configuration options. 
 
-####Getting Started
+__Getting Started__
 
 1. Copy over the file dist/ck-editor.min.js or dist/ck-editor.js
 
@@ -55,12 +55,14 @@ An AngularJS directive for the CKEditor, binding the AngularJS controller to the
 See the examples folder for a basic implementation of the directive.
 
 
-####Requirements
+__Requirements__
+
 AngularJS - v.1.2.25  
 CKEditor - v.4.4.45
 
 
-#####Credit
+__Credit__
+
 This directive is a combination of the various code snippets provided in the answers to the following StackOverflow question with a few of my tweaks added too:
 
 http://stackoverflow.com/questions/18917262/updating-textarea-value-with-ckeditor-content-in-angular-js
